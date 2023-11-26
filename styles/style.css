@@ -20,6 +20,7 @@ html {
   display: flex;
   align-items: center;
   margin: 0 auto;
+  position: relative;
 }
 
 h1,
@@ -43,7 +44,10 @@ ol {
 
 .content {
   display: flex;
+  align-items: end;
   gap: 30px;
+  width: 1140px;
+  margin: auto;
 }
 
 .content__list {

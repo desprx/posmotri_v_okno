@@ -48,6 +48,7 @@ ol {
 
 .content__list {
   max-height: 298px;
+  padding: 2px;
   overflow: scroll;
   position: relative;
 }
@@ -60,7 +61,7 @@ ol {
   margin-top: 16px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 37px;
+  gap: 35px;
 }
 
 .search-form__label:hover {
@@ -132,7 +133,7 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .content__accent {
@@ -197,7 +198,6 @@ ol {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
-  margin: 2px;
 }
 
 .visually-hidden {
@@ -221,10 +221,10 @@ fieldset {
 
 .search-form__label {
   display: flex;
-  justify-content: center;
+  align-content: center;
   width: fit-content;
   cursor: pointer;
-  gap: 2px;
+  gap: 5px;
 }
 
 .search-form__pseudo-checkbox {
@@ -253,7 +253,7 @@ fieldset {
   border-bottom: 1px solid #fff;
   background-color: transparent;
   width: fit-content;
-  padding: 1px;
+
   appearance: none;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif, Arial;
@@ -268,7 +268,6 @@ fieldset {
 }
 
 .search-form__label:has(:focus-visible) {
-  padding: 2px;
   border: 1px solid #fff;
 }
 
@@ -307,7 +306,7 @@ button:active {
 .search-form__submit-button {
   width: 194px;
   height: 34px;
-  margin-top: 20px;
+  align-self: flex-end;
   justify-self: end;
 }
 
